@@ -1,0 +1,55 @@
+body {
+    background-color: #2a2c31;
+}
+.text{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+.option {
+    background-color: #343034;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+}
+.option input:checked{
+    background-color: #2e4e88;
+}
+#submitButton
+{
+    background-color: #2e4e88;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+#mainDiv
+{
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    /*align-items: center;*/
+    padding-left: 10%;
+}
+#preface
+{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+#title
+{
+    font-size: 30px;
+    font-weight: 500;
+}
+#QQlogin
+{
+    font-size: 6px;
+    width: 200px;
+    height: 200px;
+    text-align-all: center;
+}

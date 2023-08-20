@@ -1,0 +1,1529 @@
+
+    <body><form method="post" action="https://exam.misaka.space/" onsubmit="saveAnswers()">
+        <div class="question">
+            <p>1. 在使用电脑时，屏幕上的画面突然变扁可能是因为 （） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[1]" value="0" id="option_1_0"/>
+                    <label class="form-check-label" for="option_1_0">
+                        A. 掉驱动
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[1]" value="1" id="option_1_1"/>
+                    <label class="form-check-label" for="option_1_1">
+                        B. 没打驱动
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[1]" value="2" id="option_1_2"/>
+                    <label class="form-check-label" for="option_1_2">
+                        C. osd设置与显示设置冲突
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[1]" value="3" id="option_1_3"/>
+                    <label class="form-check-label" for="option_1_3">
+                        D. 用的是A卡
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[1]" value="4" id="option_1_4"/>
+                    <label class="form-check-label" for="option_1_4">
+                        E. 显示器变形
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[1]" value="5" id="option_1_5"/>
+                    <label class="form-check-label" for="option_1_5">
+                        F. 眼睛出了问题
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[1]" value="6" id="option_1_6"/>
+                    <label class="form-check-label" for="option_1_6">
+                        G. 显卡被显示器辐射影响造成不可逆损伤
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[1]" value="7" id="option_1_7"/>
+                    <label class="form-check-label" for="option_1_7">
+                        H. 电脑没有独立显卡导致核显负载过大
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[1]" value="8" id="option_1_8"/>
+                    <label class="form-check-label" for="option_1_8">
+                        I. 驱动板被m700击中，m381的破片将电脑打穿
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>2. 鞋盒机箱不具备 （）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[2][]" value="0" id="option_2_0"/>
+                    <label class="form-check-label" for="option_2_0">
+                        A. 耐用
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[2][]" value="1" id="option_2_1"/>
+                    <label class="form-check-label" for="option_2_1">
+                        B. 防水
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[2][]" value="2" id="option_2_2"/>
+                    <label class="form-check-label" for="option_2_2">
+                        C. 易diy
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[2][]" value="3" id="option_2_3"/>
+                    <label class="form-check-label" for="option_2_3">
+                        D. 成本低
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[2][]" value="4" id="option_2_4"/>
+                    <label class="form-check-label" for="option_2_4">
+                        E. 易形变
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>3. 在使用采集卡直播时，视频画面在直播系统的正确传输顺序为 （）
+                <br/>
+                ①采集卡
+                <br/>
+                ②信号源
+                <br/>
+                ③推流机
+            </p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[3]" value="0" id="option_3_0" />
+                    <label class="form-check-label" for="option_3_0">
+                        A. ①②③
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[3]" value="1" id="option_3_1" />
+                    <label class="form-check-label" for="option_3_1">
+                        B. ①③②
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[3]" value="2" id="option_3_2" />
+                    <label class="form-check-label" for="option_3_2">
+                        C. ②①③
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[3]" value="3" id="option_3_3" />
+                    <label class="form-check-label" for="option_3_3">
+                        D. ③②①
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>4. 李华在网上购买了一台“无频闪”显示器，其中“无频闪”的含义是 （）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[4]" value="0" id="option_4_0" />
+                    <label class="form-check-label" for="option_4_0">
+                        A. 闪烁频率高于3125Hz
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[4]" value="1" id="option_4_1" />
+                    <label class="form-check-label" for="option_4_1">
+                        B. 闪烁频率低于3125Hz
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[4]" value="2" id="option_4_2" />
+                    <label class="form-check-label" for="option_4_2">
+                        C. 没有频闪
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[4]" value="3" id="option_4_3" />
+                    <label class="form-check-label" for="option_4_3">
+                        D. 闪烁频率低于3000Hz
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>5. GTX690被称为“战术核显卡”的原因是 （）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[5][]" value="0" id="option_5_0" />
+                    <label class="form-check-label" for="option_5_0">
+                        A. 因为其一发足以摧毁整个航母战斗群
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[5][]" value="1" id="option_5_1" />
+                    <label class="form-check-label" for="option_5_1">
+                        B. 某节目错误引用了被卡吧人编辑的词条
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[5][]" value="2" id="option_5_2" />
+                    <label class="form-check-label" for="option_5_2">
+                        C. 这款双芯显卡功耗和发热巨大
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[5][]" value="3" id="option_5_3" />
+                    <label class="form-check-label" for="option_5_3">
+                        D. 这款显卡在生产时使用了高纯度铀235以提升性能
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>6. *.ppsm是什么类型的文件 （）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[6]" value="0" id="option_6_0"/>
+                    <label class="form-check-label" for="option_6_0">
+                        A. 演示文稿
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[6]" value="1" id="option_6_1"/>
+                    <label class="form-check-label" for="option_6_1">
+                        B. 幻灯片放映
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[6]" value="2" id="option_6_2"/>
+                    <label class="form-check-label" for="option_6_2">
+                        C. 幻灯片模板
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[6]" value="3" id="option_6_3"/>
+                    <label class="form-check-label" for="option_6_3">
+                        D. Office 主题
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>7. 在给电脑连接外接设备时，可能需要尝试进行多次插入动作的接口是什么?（）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[7]" value="0" id="option_7_0" />
+                    <label class="form-check-label" for="option_7_0">
+                        A. Type-C 接口
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[7]" value="1" id="option_7_1" />
+                    <label class="form-check-label" for="option_7_1">
+                        B. DC电源接口
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[7]" value="2" id="option_7_2" />
+                    <label class="form-check-label" for="option_7_2">
+                        C. Lightning 接口
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[7]" value="3" id="option_7_3" />
+                    <label class="form-check-label" for="option_7_3">
+                        D. USB-A 接口
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>8. Intel 4004 微处理器是于多少年诞生的（）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[8]" value="0" id="option_8_0" />
+                    <label class="form-check-label" for="option_8_0">
+                        A. 1971年
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[8]" value="1" id="option_8_1" />
+                    <label class="form-check-label" for="option_8_1">
+                        B. 1970年
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[8]" value="2" id="option_8_2" />
+                    <label class="form-check-label" for="option_8_2">
+                        C. 1976年
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[8]" value="3" id="option_8_3" />
+                    <label class="form-check-label" for="option_8_3">
+                        D. 1968年
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>9. 假如你是凉心电脑城内一家电脑专卖店的员工，店内库存有以下电脑配件:主板:MSI B760 MORTAR WIFI;ASUS TUF
+                B550M-PLUS WIFI共两款，CPU:Intel i3 12100 Intel i5 13400 Intel i7 12700;AMD R3 3200G R5 5600G R7
+                5700G共六款，显卡:NVIDIA RTX 4080 RTX 4060 RTX 3050;AMD Radeon RX 6700
+                XT共四款。现有一顾客携带了下面一张配置单请你补全，请问你最多可以给该顾客提供多少套不同的配置?（） [单选题]
+                <br/>
+                <img class="img-fluid" src="./电教委交流群入群测试_files/9.jpg" alt="Chania" />
+            </p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[9]" value="0" id="option_9_0" />
+                    <label class="form-check-label" for="option_9_0">
+                        A.30
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[9]" value="1" id="option_9_1" />
+                    <label class="form-check-label" for="option_9_1">
+                        B.48
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[9]" value="2" id="option_9_2" />
+                    <label class="form-check-label" for="option_9_2">
+                        C.12
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[9]" value="3" id="option_9_3" />
+                    <label class="form-check-label" for="option_9_3">
+                        D.24
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>10. 以下英特尔的CPU系列中，哪些系列下存在不锁倍频的CPU?（）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[10][]" value="0" id="option_10_0" />
+                    <label class="form-check-label" for="option_10_0">
+                        A.酷睿
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[10][]" value="1" id="option_10_1" />
+                    <label class="form-check-label" for="option_10_1">
+                        B.至强
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[10][]" value="2" id="option_10_2" />
+                    <label class="form-check-label" for="option_10_2">
+                        C.奔腾
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[10][]" value="3" id="option_10_3" />
+                    <label class="form-check-label" for="option_10_3">
+                        D.赛扬
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[10][]" value="4" id="option_10_4" />
+                    <label class="form-check-label" for="option_10_4">
+                        E.凌动
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>11. 判断:据称英特尔Meteor Lake将具备L4缓存，若属实则这将是英特尔处理器首次存在L4缓存。（） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[11]" value="0" id="option_11_0" />
+                    <label class="form-check-label" for="option_11_0">
+                        A.正确
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[11]" value="1" id="option_11_1" />
+                    <label class="form-check-label" for="option_11_1">
+                        B.错误
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>12. 以下哪些行为是徒劳且可能引战的?（）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[12][]" value="0" id="option_12_0" />
+                    <label class="form-check-label" for="option_12_0">
+                        A.宣扬大小核无用论
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[12][]" value="1" id="option_12_1" />
+                    <label class="form-check-label" for="option_12_1">
+                        B.声称M2爆杀RTX4090
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[12][]" value="2" id="option_12_2" />
+                    <label class="form-check-label" for="option_12_2">
+                        C.x86吊打ARM，轻薄本一定是选x86
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[12][]" value="3" id="option_12_3" />
+                    <label class="form-check-label" for="option_12_3">
+                        D.AMD全都YES
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>13. 关于网络广播风暴，下列说法正确的是:（）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[13][]" value="0" id="option_13_0" />
+                    <label class="form-check-label" for="option_13_0">
+                        A.可能是交换网络中存在环路导致的
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[13][]" value="1" id="option_13_1" />
+                    <label class="form-check-label" for="option_13_1">
+                        B.使用傻瓜交换机可能导致此问题
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[13][]" value="2" id="option_13_2" />
+                    <label class="form-check-label" for="option_13_2">
+                        C.划分VLAN可以缩小广播风暴的影响范围
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[13][]" value="3" id="option_13_3" />
+                    <label class="form-check-label" for="option_13_3">
+                        D.集线器和交换机可以随意互相替换，不会引起广播风暴
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>14. 在Photoshop中绘制一个矩形选区，若要用前景色填充这个矩形选区，下列选项中最快捷的方法是?（） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[14]" value="0" id="option_14_0" />
+                    <label class="form-check-label" for="option_14_0">
+                        A.使用菜单中的填充命令
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[14]" value="1" id="option_14_1" />
+                    <label class="form-check-label" for="option_14_1">
+                        B.使用油漆桶工具
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[14]" value="2" id="option_14_2" />
+                    <label class="form-check-label" for="option_14_2">
+                        C.使用快捷键Ctrl+Delete
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[14]" value="3" id="option_14_3" />
+                    <label class="form-check-label" for="option_14_3">
+                        D.使用快捷键Alt+Delete
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>15. Python程序运行时，从键盘输入的内容默认是（）数据类型 [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[15]" value="0" id="option_15_0" />
+                    <label class="form-check-label" for="option_15_0">
+                        A.字符串
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[15]" value="1" id="option_15_1" />
+                    <label class="form-check-label" for="option_15_1">
+                        B.整数
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[15]" value="2" id="option_15_2" />
+                    <label class="form-check-label" for="option_15_2">
+                        C.浮点数
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[15]" value="3" id="option_15_3" />
+                    <label class="form-check-label" for="option_15_3">
+                        D.自然数
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>16. 下列顶级域名中，代表教育机构的是（） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[16]" value="0" id="option_16_0" />
+                    <label class="form-check-label" for="option_16_0">
+                        A.edu
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[16]" value="1" id="option_16_1" />
+                    <label class="form-check-label" for="option_16_1">
+                        B.org
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[16]" value="2" id="option_16_2" />
+                    <label class="form-check-label" for="option_16_2">
+                        C.gov
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[16]" value="3" id="option_16_3" />
+                    <label class="form-check-label" for="option_16_3">
+                        D.com
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>17. 小明家通过ADSL 接入因特网，现有两台配有无线网卡的笔记本电脑，要求在家中任意房间可同时上网，需要再配置的设备是（）
+                [单选题]
+            </p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[17]" value="0" id="option_17_0" />
+                    <label class="form-check-label" for="option_17_0">
+                        A.交换机
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[17]" value="1" id="option_17_1" />
+                    <label class="form-check-label" for="option_17_1">
+                        B.光猫
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[17]" value="2" id="option_17_2" />
+                    <label class="form-check-label" for="option_17_2">
+                        C.服务器
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[17]" value="3" id="option_17_3" />
+                    <label class="form-check-label" for="option_17_3">
+                        D.无线路由器
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>18. 计算机中的黑白图像，每一个像素有两种可选颜色，我们称之为（）位图像 [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[18]" value="0" id="option_18_0" />
+                    <label class="form-check-label" for="option_18_0">
+                        A.1
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[18]" value="1" id="option_18_1" />
+                    <label class="form-check-label" for="option_18_1">
+                        B.2
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[18]" value="2" id="option_18_2" />
+                    <label class="form-check-label" for="option_18_2">
+                        C.4
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[18]" value="3" id="option_18_3" />
+                    <label class="form-check-label" for="option_18_3">
+                        D.8
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>19. FTP服务器提供匿名登录时，—般采用的用户名是 （） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[19]" value="0" id="option_19_0" />
+                    <label class="form-check-label" for="option_19_0">
+                        A.Anyone
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[19]" value="1" id="option_19_1" />
+                    <label class="form-check-label" for="option_19_1">
+                        B.Telnet
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[19]" value="2" id="option_19_2" />
+                    <label class="form-check-label" for="option_19_2">
+                        C.Anonymous
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[19]" value="3" id="option_19_3" />
+                    <label class="form-check-label" for="option_19_3">
+                        D.User
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>20. 下列属于客户端脚本语言的是（） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[20]" value="0" id="option_20_0" />
+                    <label class="form-check-label" for="option_20_0">
+                        A.Html
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[20]" value="1" id="option_20_1" />
+                    <label class="form-check-label" for="option_20_1">
+                        B.JavaScript
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[20]" value="2" id="option_20_2" />
+                    <label class="form-check-label" for="option_20_2">
+                        C.Java
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[20]" value="3" id="option_20_3" />
+                    <label class="form-check-label" for="option_20_3">
+                        D.ASP
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>张磊尝试组建自己家的网络，其拓扑图如图所示，请读图并回答21至24题：
+                <br/>
+                <img class="img-fluid" src="./电教委交流群入群测试_files/21.jpg" alt="Chania" />
+                <img class="img-fluid" src="./电教委交流群入群测试_files/21-1.png" alt="Chania" />
+                <img class="img-fluid" src="./电教委交流群入群测试_files/21-2.png" alt="Chania" />
+                <br/>
+                21. 张磊想要将光猫与自己的TP-LINK TL-WR842N 路由器相连。若要使路由器在路由模式下能够正常上网，网线应与（）接口相连
+                [单选题]
+
+            </p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[21]" value="0" id="option_21_0" />
+                    <label class="form-check-label" for="option_21_0">
+                        A.WAN
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[21]" value="1" id="option_21_1" />
+                    <label class="form-check-label" for="option_21_1">
+                        B.1
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[21]" value="2" id="option_21_2" />
+                    <label class="form-check-label" for="option_21_2">
+                        C.2
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[21]" value="3" id="option_21_3" />
+                    <label class="form-check-label" for="option_21_3">
+                        D.3
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[21]" value="4" id="option_21_4" />
+                    <label class="form-check-label" for="option_21_4">
+                        E.4
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>22. 张磊设置无线路由器后，平板电脑和其他移动终端都可以通过该网络接入Internet.平板电脑接入Internet应遵循的基本协议是（）
+                [单选题]
+            </p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[22]" value="0" id="option_22_0" />
+                    <label class="form-check-label" for="option_22_0">
+                        A.NetBEUI
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[22]" value="1" id="option_22_1" />
+                    <label class="form-check-label" for="option_22_1">
+                        B.TCP/IP
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[22]" value="2" id="option_22_2" />
+                    <label class="form-check-label" for="option_22_2">
+                        C.IPX/SPX
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[22]" value="3" id="option_22_3" />
+                    <label class="form-check-label" for="option_22_3">
+                        D.HTTP
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>23. 从地理覆盖范围看，该网络属于（） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[23]" value="0" id="option_23_0" />
+                    <label class="form-check-label" for="option_23_0">
+                        A.局域网
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[23]" value="1" id="option_23_1" />
+                    <label class="form-check-label" for="option_23_1">
+                        B.城域网
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[23]" value="2" id="option_23_2" />
+                    <label class="form-check-label" for="option_23_2">
+                        C.广域网
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>24. 若PC1的网关为192.168.0.254，则PC2的网关为:（） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[24]" value="0" id="option_24_0" />
+                    <label class="form-check-label" for="option_24_0">
+                        A.192.168.1.1
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[24]" value="1" id="option_24_1" />
+                    <label class="form-check-label" for="option_24_1">
+                        B.127.0.0.1
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[24]" value="2" id="option_24_2" />
+                    <label class="form-check-label" for="option_24_2">
+                        C.192.168.0.254
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[24]" value="3" id="option_24_3" />
+                    <label class="form-check-label" for="option_24_3">
+                        D.192.168.10.1
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>25. PC1的IP地址为192.168.0.1，PC2的IP地址最可能为:（） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[25]" value="0" id="option_25_0" />
+                    <label class="form-check-label" for="option_25_0">
+                        A.192.168.0.1
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[25]" value="1" id="option_25_1" />
+                    <label class="form-check-label" for="option_25_1">
+                        B.192.168.0.114
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[25]" value="2" id="option_25_2" />
+                    <label class="form-check-label" for="option_25_2">
+                        C.192.168.0.254
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[25]" value="3" id="option_25_3" />
+                    <label class="form-check-label" for="option_25_3">
+                        D.5.5.1.1
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>26. 小明家开通了千兆宽带，使用运营商赠送的光信号调制解调器（简称光猫），他家宽带的实际下行速率最有可能是（）
+                [单选题]
+            </p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[26]" value="0" id="option_26_0" />
+                    <label class="form-check-label" for="option_26_0">
+                        A.1000MB/s
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[26]" value="1" id="option_26_1" />
+                    <label class="form-check-label" for="option_26_1">
+                        B.110MB/s
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[26]" value="2" id="option_26_2" />
+                    <label class="form-check-label" for="option_26_2">
+                        C.125MB/s
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[26]" value="3" id="option_26_3" />
+                    <label class="form-check-label" for="option_26_3">
+                        D.900MB/s
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>27.
+                小明用网线将光猫上的千兆网口与电脑的千兆网口连接起来，使用没有欠费的千兆宽带下载Steam上的战地五到C:\SteamLibrary，但是发现下载速度始终保持在12-12.5MB/s之间，问题有可能出在下列哪里（）
+            </p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[27][]" value="0" id="option_27_0" />
+                    <label class="form-check-label" for="option_27_0">
+                        A.steam官方服务器问题
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[27][]" value="1" id="option_27_1" />
+                    <label class="form-check-label" for="option_27_1">
+                        B.小明使用的五类网线5号，8号芯被老鼠咬断了
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[27][]" value="2" id="option_27_2" />
+                    <label class="form-check-label" for="option_27_2">
+                        C.小明被运营商骗了
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[27][]" value="3" id="option_27_3" />
+                    <label class="form-check-label" for="option_27_3">
+                        D.小明的电脑硬盘写入速度瓶颈
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>28. 以下哪种数据传输方式的速度最快?（） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[28]" value="0" id="option_28_0" />
+                    <label class="form-check-label" for="option_28_0">
+                        A. USB 3.0
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[28]" value="1" id="option_28_1" />
+                    <label class="form-check-label" for="option_28_1">
+                        B. Firewire 800
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[28]" value="2" id="option_28_2" />
+                    <label class="form-check-label" for="option_28_2">
+                        C. Thunderbolt 4
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[28]" value="3" id="option_28_3" />
+                    <label class="form-check-label" for="option_28_3">
+                        D. eSATA
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>29. 下列这些存储介质中，哪一个是速度最快的? （） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[29]" value="0" id="option_29_0" />
+                    <label class="form-check-label" for="option_29_0">
+                        A. NAND
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[29]" value="1" id="option_29_1" />
+                    <label class="form-check-label" for="option_29_1">
+                        B. HDD
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[29]" value="2" id="option_29_2" />
+                    <label class="form-check-label" for="option_29_2">
+                        C. DDR5
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[29]" value="3" id="option_29_3" />
+                    <label class="form-check-label" for="option_29_3">
+                        D. SRAM
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>30. 哪个文件系统适用于在多个操作系统之间共享文件?（） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[30]" value="0" id="option_30_0" />
+                    <label class="form-check-label" for="option_30_0">
+                        A. FAT32
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[30]" value="1" id="option_30_1" />
+                    <label class="form-check-label" for="option_30_1">
+                        B. NTFS
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[30]" value="2" id="option_30_2" />
+                    <label class="form-check-label" for="option_30_2">
+                        C. HFS+
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[30]" value="3" id="option_30_3" />
+                    <label class="form-check-label" for="option_30_3">
+                        D. Ext4
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>31. 以下哪种加密算法是对称加密算法?（）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[31]" value="0" id="option_31_0" />
+                    <label class="form-check-label" for="option_31_0">
+                        A. RSA
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[31]" value="1" id="option_31_1" />
+                    <label class="form-check-label" for="option_31_1">
+                        B. AES
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[31]" value="2" id="option_31_2" />
+                    <label class="form-check-label" for="option_31_2">
+                        C. SHA-256
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[31]" value="3" id="option_31_3" />
+                    <label class="form-check-label" for="option_31_3">
+                        D. ECC
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>32. 什么是RAID?（）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[32]" value="0" id="option_32_0" />
+                    <label class="form-check-label" for="option_32_0">
+                        A. 一种网络协议
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[32]" value="1" id="option_32_1" />
+                    <label class="form-check-label" for="option_32_1">
+                        B. 一种存储技术
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[32]" value="2" id="option_32_2" />
+                    <label class="form-check-label" for="option_32_2">
+                        C. 一种加密算法
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[32]" value="3" id="option_32_3" />
+                    <label class="form-check-label" for="option_32_3">
+                        D. 一种输入输出设备
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>33. 什么是操作系统中的“进程”?（）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[33]" value="0" id="option_33_0" />
+                    <label class="form-check-label" for="option_33_0">
+                        A. 程序执行的载体
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[33]" value="1" id="option_33_1" />
+                    <label class="form-check-label" for="option_33_1">
+                        B. CPU的运行状态
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[33]" value="2" id="option_33_2" />
+                    <label class="form-check-label" for="option_33_2">
+                        C. 内存的分配单位
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[33]" value="3" id="option_33_3" />
+                    <label class="form-check-label" for="option_33_3">
+                        D. 硬盘上的文件
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>34. 什么是CPU的超线程?（）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[34]" value="0" id="option_34_0" />
+                    <label class="form-check-label" for="option_34_0">
+                        A. 一种虚拟化技术
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[34]" value="1" id="option_34_1" />
+                    <label class="form-check-label" for="option_34_1">
+                        B. 一种加速技术
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[34]" value="2" id="option_34_2" />
+                    <label class="form-check-label" for="option_34_2">
+                        C. 一种多核技术
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[34]" value="3" id="option_34_3" />
+                    <label class="form-check-label" for="option_34_3">
+                        D. 一种节能技术
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>35. 什么是固件?（）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[35]" value="0" id="option_35_0" />
+                    <label class="form-check-label" for="option_35_0">
+                        A. 一种硬件设备
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[35]" value="1" id="option_35_1" />
+                    <label class="form-check-label" for="option_35_1">
+                        B. 一种软件类型
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[35]" value="2" id="option_35_2" />
+                    <label class="form-check-label" for="option_35_2">
+                        C. 一种网络协议
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[35]" value="3" id="option_35_3" />
+                    <label class="form-check-label" for="option_35_3">
+                        D. 一种存储设备
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>36. 什么是虚拟机?（）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[36]" value="0" id="option_36_0" />
+                    <label class="form-check-label" for="option_36_0">
+                        A. 一种模拟出的物理计算机
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[36]" value="1" id="option_36_1" />
+                    <label class="form-check-label" for="option_36_1">
+                        B. 一种网络协议
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[36]" value="2" id="option_36_2" />
+                    <label class="form-check-label" for="option_36_2">
+                        C. 一种编程语言
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[36]" value="3" id="option_36_3" />
+                    <label class="form-check-label" for="option_36_3">
+                        D. 一种加密算法
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>37. 什么是Docker?（）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[37]" value="0" id="option_37_0" />
+                    <label class="form-check-label" for="option_37_0">
+                        A. 一种容器化平台
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[37]" value="1" id="option_37_1" />
+                    <label class="form-check-label" for="option_37_1">
+                        B. 一种网络协议
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[37]" value="2" id="option_37_2" />
+                    <label class="form-check-label" for="option_37_2">
+                        C. 一种编程语言
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[37]" value="3" id="option_37_3" />
+                    <label class="form-check-label" for="option_37_3">
+                        D. 一种加密算法
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>38. 什么是以太坊?（）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[38]" value="0" id="option_38_0" />
+                    <label class="form-check-label" for="option_38_0">
+                        A. 一种智能合约平台
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[38]" value="1" id="option_38_1" />
+                    <label class="form-check-label" for="option_38_1">
+                        B. 一种网络协议
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[38]" value="2" id="option_38_2" />
+                    <label class="form-check-label" for="option_38_2">
+                        C. 一种编程语言
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[38]" value="3" id="option_38_3" />
+                    <label class="form-check-label" for="option_38_3">
+                        D. 一种加密算法
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>39. 以下哪个是计算机网络中的传输层协议? （）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[39]" value="0" id="option_39_0" />
+                    <label class="form-check-label" for="option_39_0">
+                        A. TCP
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[39]" value="1" id="option_39_1" />
+                    <label class="form-check-label" for="option_39_1">
+                        B. IP
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[39]" value="2" id="option_39_2" />
+                    <label class="form-check-label" for="option_39_2">
+                        C. HTTP
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[39]" value="3" id="option_39_3" />
+                    <label class="form-check-label" for="option_39_3">
+                        D. ARP
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>40. 以下哪个是计算机操作系统中的进程调度算法?（）</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[40]" value="0" id="option_40_0" />
+                    <label class="form-check-label" for="option_40_0">
+                        A. 先来先服务（FCFS）
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[40]" value="1" id="option_40_1" />
+                    <label class="form-check-label" for="option_40_1">
+                        B. 最短作业优先（SJF）
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[40]" value="2" id="option_40_2" />
+                    <label class="form-check-label" for="option_40_2">
+                        C. 时间片轮转（RR）
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[40]" value="3" id="option_40_3" />
+                    <label class="form-check-label" for="option_40_3">
+                        D. 优先级调度（PS）
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>41. 老师向希沃白板5中导入了一段视频画面存在，但播放时出现了如图所示的问题，可能的影响因素是什么?（）
+                <br/>
+                <img class="img-fluid" src="./电教委交流群入群测试_files/41.png" alt="Chania" />
+            </p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[41][]" value="0" id="option_41_0" />
+                    <label class="form-check-label" for="option_41_0">
+                        A.分辨率
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[41][]" value="1" id="option_41_1" />
+                    <label class="form-check-label" for="option_41_1">
+                        B.帧率
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[41][]" value="2" id="option_41_2" />
+                    <label class="form-check-label" for="option_41_2">
+                        C.时长
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[41][]" value="3" id="option_41_3" />
+                    <label class="form-check-label" for="option_41_3">
+                        D.码率
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>42. 如果老师请你推荐一款轻薄本用来办公，需求为长续航，并且能够流畅处理轻度办公和轻度视频剪辑与编解码，以下哪一款CPU最适合?
+                （） [单选题]
+            </p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[42]" value="0" id="option_42_0" />
+                    <label class="form-check-label" for="option_42_0">
+                        A. Apple M1
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[42]" value="1" id="option_42_1" />
+                    <label class="form-check-label" for="option_42_1">
+                        B. i5 13500h
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[42]" value="2" id="option_42_2" />
+                    <label class="form-check-label" for="option_42_2">
+                        C. i5 1350p
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[42]" value="3" id="option_42_3" />
+                    <label class="form-check-label" for="option_42_3">
+                        D. R5 6600H
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>43. 蓝天P775TM1-G使用的EC（集成控制器）型号是什么? （） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[43]" value="0" id="option_43_0" />
+                    <label class="form-check-label" for="option_43_0">
+                        A. IT8587
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[43]" value="1" id="option_43_1" />
+                    <label class="form-check-label" for="option_43_1">
+                        B. IT5570
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[43]" value="2" id="option_43_2" />
+                    <label class="form-check-label" for="option_43_2">
+                        C. IT8987E
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[43]" value="3" id="option_43_3" />
+                    <label class="form-check-label" for="option_43_3">
+                        D. IT8512E
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>44. 正常配置的计算机的内储存器比外储存器 （） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[44]" value="0" id="option_44_0" />
+                    <label class="form-check-label" for="option_44_0">
+                        A. 便宜
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[44]" value="1" id="option_44_1" />
+                    <label class="form-check-label" for="option_44_1">
+                        B. 读取速度更快
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[44]" value="2" id="option_44_2" />
+                    <label class="form-check-label" for="option_44_2">
+                        C. 储存量大
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[44]" value="3" id="option_44_3" />
+                    <label class="form-check-label" for="option_44_3">
+                        D. 虽然价格高，但储存文件更多
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>45. Ventoy在uefi模式下可以引导一下哪个虚拟磁盘中的系统? （） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[45]" value="0" id="option_45_0" />
+                    <label class="form-check-label" for="option_45_0">
+                        A. gpt格式动态扩展vhd中的Manjaro
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[45]" value="1" id="option_45_1" />
+                    <label class="form-check-label" for="option_45_1">
+                        B. mbr格式固定大小vdi中的kali
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[45]" value="2" id="option_45_2" />
+                    <label class="form-check-label" for="option_45_2">
+                        C. mbr格式动态扩展vhdx中的Windows11
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[45]" value="3" id="option_45_3" />
+                    <label class="form-check-label" for="option_45_3">
+                        D. 以上都可以
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>46. 在Premiere中，若想快速调整时间轴到合适的缩放比例，应使用系列哪一个快捷键?（） [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[46]" value="0" id="option_46_0" />
+                    <label class="form-check-label" for="option_46_0">
+                        A. V
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[46]" value="1" id="option_46_1" />
+                    <label class="form-check-label" for="option_46_1">
+                        B. Ctrl+K
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[46]" value="2" id="option_46_2" />
+                    <label class="form-check-label" for="option_46_2">
+                        C. \
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[46]" value="3" id="option_46_3" />
+                    <label class="form-check-label" for="option_46_3">
+                        D. A
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>47. 李华某次给希沃重装完系统后出现了如图所示的情况，此时合理的解决方法为（）
+                <br />
+                <img class="img-fluid" src="./电教委交流群入群测试_files/47.jpg" alt="Chania" />
+            </p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[47][]" value="0" id="option_47_0" />
+                    <label class="form-check-label" for="option_47_0">
+                        A. 重新安装Windows
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[47][]" value="1" id="option_47_1" />
+                    <label class="form-check-label" for="option_47_1">
+                        B. 跑路
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[47][]" value="2" id="option_47_2" />
+                    <label class="form-check-label" for="option_47_2">
+                        C. 进入BIOS设置启动模式与分区类型相匹配
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[47][]" value="3" id="option_47_3" />
+                    <label class="form-check-label" for="option_47_3">
+                        D. 进入PE修复引导
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[47][]" value="4" id="option_47_4" />
+                    <label class="form-check-label" for="option_47_4">
+                        E. 使用Ctrl+Alt+Delete重启电脑
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>48. 用于印刷的Photoshop图像文件一般设置为（）颜色模式 [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[48]" value="0" id="option_48_0" />
+                    <label class="form-check-label" for="option_48_0">
+                        A.RGB
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[48]" value="1" id="option_48_1" />
+                    <label class="form-check-label" for="option_48_1">
+                        B.灰度
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[48]" value="2" id="option_48_2" />
+                    <label class="form-check-label" for="option_48_2">
+                        C.CMYK
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[48]" value="3" id="option_48_3" />
+                    <label class="form-check-label" for="option_48_3">
+                        D.HSB
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>49. 为什么PE需要用Startisback替代任务栏 *</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[49][]" value="0" id="option_49_0" />
+                    <label class="form-check-label" for="option_49_0">
+                        A.ramos限制
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[49][]" value="1" id="option_49_1" />
+                    <label class="form-check-label" for="option_49_1">
+                        B.好看
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[49][]" value="2" id="option_49_2" />
+                    <label class="form-check-label" for="option_49_2">
+                        C.原生任务栏高度依赖uwp
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="answer[49][]" value="3" id="option_49_3" />
+                    <label class="form-check-label" for="option_49_3">
+                        D.system账户无法使用uwp
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>50. 看了不吃胡萝卜de兔叽的视频应该干啥 [单选题]</p>
+            <div class="options">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[50]" value="0" id="option_50_0" />
+                    <label class="form-check-label" for="option_50_0">
+                        A.举报
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[50]" value="1" id="option_50_1" />
+                    <label class="form-check-label" for="option_50_1">
+                        B.点踩
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[50]" value="2" id="option_50_2" />
+                    <label class="form-check-label" for="option_50_2">
+                        C.三连
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answer[50]" value="3" id="option_50_3" />
+                    <label class="form-check-label" for="option_50_3">
+                        D.白嫖
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <input type="submit" class="btn btn-primary" value="提交答案"/>
+    </form></body>

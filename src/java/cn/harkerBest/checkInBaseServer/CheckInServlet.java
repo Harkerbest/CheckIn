@@ -27,35 +27,42 @@ public class CheckInServlet extends HttpServlet {
     public void doPost(HttpServletRequest req, HttpServletResponse resp) throws java.io.IOException {
         resp.setContentType("text/html;charset=utf-8");
         req.setCharacterEncoding("utf-8");
-        resp.getWriter().println("收到提交");
+//        resp.getWriter().println("收到提交");
 //        result.append("收到提交");
         System.out.println("收到提交");
 //        request.POST_DATA['h-captcha-response']
         final String hCaptchaResp = req.getParameter("h-captcha-response");
-        String hCaptchaResult = SendHttpPOST("https://hcaptcha.com/siteverify","'response':"+ hCaptchaResp +", 'secret': 0x41CBe0fEf50608BC872869Bc68F43622fF9a8286");
-        System.out.println(hCaptchaResp);
+        String postData = "response="+ hCaptchaResp +"&secret=0x41CBe0fEf50608BC872869Bc68F43622fF9a8286";
+        String hCaptchaResult = SendHttpPOST("https://hcaptcha.com/siteverify",postData);
+        System.out.println(postData);
         System.out.println(hCaptchaResult);
         Gson gson = new Gson();
         Map resultMap = gson.fromJson(hCaptchaResult, Map.class);
         if (resultMap == null){
-            resp.getWriter().println("验证失败");
+//            resp.getWriter().println("验证失败");
             result.append("验证失败");
             System.out.println("验证失败");
-            return;
-        }
-        if (resultMap.get("success").equals(true)) {
-            resp.getWriter().println("验证成功");
-            result.append("验证成功");
-            System.out.println("验证成功");
         } else {
-            if (((ArrayList<Object>)resultMap.get("error-codes")).get(0).equals("missing-input-response")){
-                resp.getWriter().println("没有点击验证");
-                result.append("没有点击验证");
-                System.out.println("没有点击验证");
+            if (resultMap.get("success").equals(true)) {
+//                resp.getWriter().println("验证成功");
+                result.append("验证成功");
+                System.out.println("验证成功");
             } else {
-                resp.getWriter().println("验证失败");
-                result.append("验证失败");
-                System.out.println("验证失败");
+                try {
+                    if (((ArrayList<Object>)resultMap.get("error-codes")).get(0).equals("missing-input-response")){
+//                        resp.getWriter().println("没有点击验证");
+                        result.append("没有点击验证");
+                        System.out.println("没有点击验证");
+                    } else {
+//                        resp.getWriter().println("验证失败");
+                        result.append("验证失败");
+                        System.out.println("验证失败");
+                    }
+                } catch (NullPointerException ignored){
+//                    resp.getWriter().println("验证失败");
+                    result.append("验证失败");
+                    System.out.println("验证失败");
+                }
             }
         }
     }
@@ -79,8 +86,10 @@ public class CheckInServlet extends HttpServlet {
         
         //加入数据
         httpConn.setRequestMethod("POST");
+        httpConn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+//        httpConn.setRequestProperty("Accept", "application/json");
+        httpConn.setDoInput(true);
         httpConn.setDoOutput(true);
-        httpConn.setRequestProperty("Content-Type", "application/x-www-form.xml-urlencoded");
         OutputStreamWriter writer = new OutputStreamWriter(httpConn.getOutputStream(), StandardCharsets.UTF_8);
         
         //body参数在这里put到JSONObject中

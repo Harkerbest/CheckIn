@@ -38,9 +38,9 @@
         out.println("<iframe src=\"\" name=\"submitFrame\" width=\"200\" height=\"50\"></iframe>");
     } else if (request.getParameter("submitAnswers")!=null) {
         CheckInServlet checkInServlet = new CheckInServlet();
-        request.setAttribute("h-captcha-response",request.getParameter("h-captcha-response"));
+//        request.setAttribute("h-captcha-response",response.getParameter("h-captcha-response"));
         checkInServlet.doPost(request,response);
-        out.println("<div>完成作答,"+ response +"</div>");
+        out.println("<div>完成作答,"+ checkInServlet.result.toString() +"</div>");
     }
 %>
 <%--<div id="result"></div>--%>

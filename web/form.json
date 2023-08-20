@@ -1,0 +1,3636 @@
+{
+  "form": {
+    "-method": "POST",
+    "-action": "https://exam.misaka.space/",
+    "-onsubmit": "saveAnswers()",
+    "div": [
+      {
+        "-class": "question",
+        "p": "1. 在使用电脑时，屏幕上的画面突然变扁可能是因为 （） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[1]",
+                "-value": "0",
+                "-id": "option_1_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_1_0",
+                "#text": "\n                    A. 掉驱动\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[1]",
+                "-value": "1",
+                "-id": "option_1_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_1_1",
+                "#text": "\n                    B. 没打驱动\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[1]",
+                "-value": "2",
+                "-id": "option_1_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_1_2",
+                "#text": "\n                    C. osd设置与显示设置冲突\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[1]",
+                "-value": "3",
+                "-id": "option_1_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_1_3",
+                "#text": "\n                    D. 用的是A卡\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[1]",
+                "-value": "4",
+                "-id": "option_1_4"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_1_4",
+                "#text": "\n                    E. 显示器变形\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[1]",
+                "-value": "5",
+                "-id": "option_1_5"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_1_5",
+                "#text": "\n                    F. 眼睛出了问题\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[1]",
+                "-value": "6",
+                "-id": "option_1_6"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_1_6",
+                "#text": "\n                    G. 显卡被显示器辐射影响造成不可逆损伤\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[1]",
+                "-value": "7",
+                "-id": "option_1_7"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_1_7",
+                "#text": "\n                    H. 电脑没有独立显卡导致核显负载过大\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[1]",
+                "-value": "8",
+                "-id": "option_1_8"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_1_8",
+                "#text": "\n                    I. 驱动板被m700击中，m381的破片将电脑打穿\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "2. 鞋盒机箱不具备 （）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[2][]",
+                "-value": "0",
+                "-id": "option_2_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_2_0",
+                "#text": "\n                    A. 耐用\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[2][]",
+                "-value": "1",
+                "-id": "option_2_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_2_1",
+                "#text": "\n                    B. 防水\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[2][]",
+                "-value": "2",
+                "-id": "option_2_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_2_2",
+                "#text": "\n                    C. 易diy\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[2][]",
+                "-value": "3",
+                "-id": "option_2_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_2_3",
+                "#text": "\n                    D. 成本低\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[2][]",
+                "-value": "4",
+                "-id": "option_2_4"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_2_4",
+                "#text": "\n                    E. 易形变\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": {
+          "#text": [
+            "3. 在使用采集卡直播时，视频画面在直播系统的正确传输顺序为 （）\n            ",
+            "\n            ①采集卡\n            ",
+            "\n            ②信号源\n            ",
+            "\n            ③推流机\n        "
+          ]
+        },
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[3]",
+                "-value": "0",
+                "-id": "option_3_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_3_0",
+                "#text": "\n                    A. ①②③\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[3]",
+                "-value": "1",
+                "-id": "option_3_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_3_1",
+                "#text": "\n                    B. ①③②\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[3]",
+                "-value": "2",
+                "-id": "option_3_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_3_2",
+                "#text": "\n                    C. ②①③\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[3]",
+                "-value": "3",
+                "-id": "option_3_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_3_3",
+                "#text": "\n                    D. ③②①\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "4. 李华在网上购买了一台“无频闪”显示器，其中“无频闪”的含义是 （）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[4]",
+                "-value": "0",
+                "-id": "option_4_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_4_0",
+                "#text": "\n                    A. 闪烁频率高于3125Hz\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[4]",
+                "-value": "1",
+                "-id": "option_4_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_4_1",
+                "#text": "\n                    B. 闪烁频率低于3125Hz\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[4]",
+                "-value": "2",
+                "-id": "option_4_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_4_2",
+                "#text": "\n                    C. 没有频闪\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[4]",
+                "-value": "3",
+                "-id": "option_4_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_4_3",
+                "#text": "\n                    D. 闪烁频率低于3000Hz\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "5. GTX690被称为“战术核显卡”的原因是 （）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[5][]",
+                "-value": "0",
+                "-id": "option_5_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_5_0",
+                "#text": "\n                    A. 因为其一发足以摧毁整个航母战斗群\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[5][]",
+                "-value": "1",
+                "-id": "option_5_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_5_1",
+                "#text": "\n                    B. 某节目错误引用了被卡吧人编辑的词条\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[5][]",
+                "-value": "2",
+                "-id": "option_5_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_5_2",
+                "#text": "\n                    C. 这款双芯显卡功耗和发热巨大\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[5][]",
+                "-value": "3",
+                "-id": "option_5_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_5_3",
+                "#text": "\n                    D. 这款显卡在生产时使用了高纯度铀235以提升性能\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "6. *.ppsm是什么类型的文件 （）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[6]",
+                "-value": "0",
+                "-id": "option_6_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_6_0",
+                "#text": "\n                    A. 演示文稿\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[6]",
+                "-value": "1",
+                "-id": "option_6_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_6_1",
+                "#text": "\n                    B. 幻灯片放映\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[6]",
+                "-value": "2",
+                "-id": "option_6_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_6_2",
+                "#text": "\n                    C. 幻灯片模板\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[6]",
+                "-value": "3",
+                "-id": "option_6_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_6_3",
+                "#text": "\n                    D. Office 主题\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "7. 在给电脑连接外接设备时，可能需要尝试进行多次插入动作的接口是什么?（）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[7]",
+                "-value": "0",
+                "-id": "option_7_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_7_0",
+                "#text": "\n                    A. Type-C 接口\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[7]",
+                "-value": "1",
+                "-id": "option_7_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_7_1",
+                "#text": "\n                    B. DC电源接口\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[7]",
+                "-value": "2",
+                "-id": "option_7_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_7_2",
+                "#text": "\n                    C. Lightning 接口\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[7]",
+                "-value": "3",
+                "-id": "option_7_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_7_3",
+                "#text": "\n                    D. USB-A 接口\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "8. Intel 4004 微处理器是于多少年诞生的（）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[8]",
+                "-value": "0",
+                "-id": "option_8_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_8_0",
+                "#text": "\n                    A. 1971年\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[8]",
+                "-value": "1",
+                "-id": "option_8_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_8_1",
+                "#text": "\n                    B. 1970年\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[8]",
+                "-value": "2",
+                "-id": "option_8_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_8_2",
+                "#text": "\n                    C. 1976年\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[8]",
+                "-value": "3",
+                "-id": "option_8_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_8_3",
+                "#text": "\n                    D. 1968年\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": {
+          "#text": "9. 假如你是凉心电脑城内一家电脑专卖店的员工，店内库存有以下电脑配件:主板:MSI B760 MORTAR WIFI;ASUS TUF\n            B550M-PLUS WIFI共两款，CPU:Intel i3 12100 Intel i5 13400 Intel i7 12700;AMD R3 3200G R5 5600G R7\n            5700G共六款，显卡:NVIDIA RTX 4080 RTX 4060 RTX 3050;AMD Radeon RX 6700\n            XT共四款。现有一顾客携带了下面一张配置单请你补全，请问你最多可以给该顾客提供多少套不同的配置?（） [单选题]\n            ",
+          "img": {
+            "-decoding": "async",
+            "-class": "img-fluid",
+            "-src": "./电教委交流群入群测试_files/9.jpg",
+            "-alt": "Chania"
+          }
+        },
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[9]",
+                "-value": "0",
+                "-id": "option_9_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_9_0",
+                "#text": "\n                    A.30\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[9]",
+                "-value": "1",
+                "-id": "option_9_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_9_1",
+                "#text": "\n                    B.48\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[9]",
+                "-value": "2",
+                "-id": "option_9_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_9_2",
+                "#text": "\n                    C.12\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[9]",
+                "-value": "3",
+                "-id": "option_9_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_9_3",
+                "#text": "\n                    D.24\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "10. 以下英特尔的CPU系列中，哪些系列下存在不锁倍频的CPU?（）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[10][]",
+                "-value": "0",
+                "-id": "option_10_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_10_0",
+                "#text": "\n                    A.酷睿\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[10][]",
+                "-value": "1",
+                "-id": "option_10_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_10_1",
+                "#text": "\n                    B.至强\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[10][]",
+                "-value": "2",
+                "-id": "option_10_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_10_2",
+                "#text": "\n                    C.奔腾\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[10][]",
+                "-value": "3",
+                "-id": "option_10_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_10_3",
+                "#text": "\n                    D.赛扬\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[10][]",
+                "-value": "4",
+                "-id": "option_10_4"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_10_4",
+                "#text": "\n                    E.凌动\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "11. 判断:据称英特尔Meteor Lake将具备L4缓存，若属实则这将是英特尔处理器首次存在L4缓存。（） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[11]",
+                "-value": "0",
+                "-id": "option_11_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_11_0",
+                "#text": "\n                    A.正确\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[11]",
+                "-value": "1",
+                "-id": "option_11_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_11_1",
+                "#text": "\n                    B.错误\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "12. 以下哪些行为是徒劳且可能引战的?（）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[12][]",
+                "-value": "0",
+                "-id": "option_12_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_12_0",
+                "#text": "\n                    A.宣扬大小核无用论\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[12][]",
+                "-value": "1",
+                "-id": "option_12_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_12_1",
+                "#text": "\n                    B.声称M2爆杀RTX4090\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[12][]",
+                "-value": "2",
+                "-id": "option_12_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_12_2",
+                "#text": "\n                    C.x86吊打ARM，轻薄本一定是选x86\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[12][]",
+                "-value": "3",
+                "-id": "option_12_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_12_3",
+                "#text": "\n                    D.AMD全都YES\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "13. 关于网络广播风暴，下列说法正确的是:（）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[13][]",
+                "-value": "0",
+                "-id": "option_13_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_13_0",
+                "#text": "\n                    A.可能是交换网络中存在环路导致的\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[13][]",
+                "-value": "1",
+                "-id": "option_13_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_13_1",
+                "#text": "\n                    B.使用傻瓜交换机可能导致此问题\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[13][]",
+                "-value": "2",
+                "-id": "option_13_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_13_2",
+                "#text": "\n                    C.划分VLAN可以缩小广播风暴的影响范围\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[13][]",
+                "-value": "3",
+                "-id": "option_13_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_13_3",
+                "#text": "\n                    D.集线器和交换机可以随意互相替换，不会引起广播风暴\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "14. 在Photoshop中绘制一个矩形选区，若要用前景色填充这个矩形选区，下列选项中最快捷的方法是?（） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[14]",
+                "-value": "0",
+                "-id": "option_14_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_14_0",
+                "#text": "\n                    A.使用菜单中的填充命令\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[14]",
+                "-value": "1",
+                "-id": "option_14_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_14_1",
+                "#text": "\n                    B.使用油漆桶工具\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[14]",
+                "-value": "2",
+                "-id": "option_14_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_14_2",
+                "#text": "\n                    C.使用快捷键Ctrl+Delete\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[14]",
+                "-value": "3",
+                "-id": "option_14_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_14_3",
+                "#text": "\n                    D.使用快捷键Alt+Delete\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "15. Python程序运行时，从键盘输入的内容默认是（）数据类型 [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[15]",
+                "-value": "0",
+                "-id": "option_15_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_15_0",
+                "#text": "\n                    A.字符串\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[15]",
+                "-value": "1",
+                "-id": "option_15_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_15_1",
+                "#text": "\n                    B.整数\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[15]",
+                "-value": "2",
+                "-id": "option_15_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_15_2",
+                "#text": "\n                    C.浮点数\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[15]",
+                "-value": "3",
+                "-id": "option_15_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_15_3",
+                "#text": "\n                    D.自然数\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "16. 下列顶级域名中，代表教育机构的是（） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[16]",
+                "-value": "0",
+                "-id": "option_16_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_16_0",
+                "#text": "\n                    A.edu\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[16]",
+                "-value": "1",
+                "-id": "option_16_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_16_1",
+                "#text": "\n                    B.org\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[16]",
+                "-value": "2",
+                "-id": "option_16_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_16_2",
+                "#text": "\n                    C.gov\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[16]",
+                "-value": "3",
+                "-id": "option_16_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_16_3",
+                "#text": "\n                    D.com\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "17. 小明家通过ADSL 接入因特网，现有两台配有无线网卡的笔记本电脑，要求在家中任意房间可同时上网，需要再配置的设备是（）\n            [单选题]\n        ",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[17]",
+                "-value": "0",
+                "-id": "option_17_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_17_0",
+                "#text": "\n                    A.交换机\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[17]",
+                "-value": "1",
+                "-id": "option_17_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_17_1",
+                "#text": "\n                    B.光猫\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[17]",
+                "-value": "2",
+                "-id": "option_17_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_17_2",
+                "#text": "\n                    C.服务器\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[17]",
+                "-value": "3",
+                "-id": "option_17_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_17_3",
+                "#text": "\n                    D.无线路由器\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "18. 计算机中的黑白图像，每一个像素有两种可选颜色，我们称之为（）位图像 [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[18]",
+                "-value": "0",
+                "-id": "option_18_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_18_0",
+                "#text": "\n                    A.1\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[18]",
+                "-value": "1",
+                "-id": "option_18_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_18_1",
+                "#text": "\n                    B.2\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[18]",
+                "-value": "2",
+                "-id": "option_18_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_18_2",
+                "#text": "\n                    C.4\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[18]",
+                "-value": "3",
+                "-id": "option_18_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_18_3",
+                "#text": "\n                    D.8\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "19. FTP服务器提供匿名登录时，—般采用的用户名是 （） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[19]",
+                "-value": "0",
+                "-id": "option_19_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_19_0",
+                "#text": "\n                    A.Anyone\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[19]",
+                "-value": "1",
+                "-id": "option_19_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_19_1",
+                "#text": "\n                    B.Telnet\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[19]",
+                "-value": "2",
+                "-id": "option_19_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_19_2",
+                "#text": "\n                    C.Anonymous\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[19]",
+                "-value": "3",
+                "-id": "option_19_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_19_3",
+                "#text": "\n                    D.User\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "20. 下列属于客户端脚本语言的是（） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[20]",
+                "-value": "0",
+                "-id": "option_20_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_20_0",
+                "#text": "\n                    A.Html\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[20]",
+                "-value": "1",
+                "-id": "option_20_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_20_1",
+                "#text": "\n                    B.JavaScript\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[20]",
+                "-value": "2",
+                "-id": "option_20_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_20_2",
+                "#text": "\n                    C.Java\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[20]",
+                "-value": "3",
+                "-id": "option_20_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_20_3",
+                "#text": "\n                    D.ASP\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": {
+          "#text": [
+            "张磊尝试组建自己家的网络，其拓扑图如图所示，请读图并回答21至24题：\n            ",
+            "\n            21. 张磊想要将光猫与自己的TP-LINK TL-WR842N 路由器相连。若要使路由器在路由模式下能够正常上网，网线应与（）接口相连\n            [单选题]\n\n        "
+          ],
+          "img": [
+            {
+              "-decoding": "async",
+              "-class": "img-fluid",
+              "-src": "./电教委交流群入群测试_files/21.jpg",
+              "-alt": "Chania"
+            },
+            {
+              "-decoding": "async",
+              "-class": "img-fluid",
+              "-src": "./电教委交流群入群测试_files/21-1.png",
+              "-alt": "Chania"
+            },
+            {
+              "-decoding": "async",
+              "-class": "img-fluid",
+              "-src": "./电教委交流群入群测试_files/21-2.png",
+              "-alt": "Chania"
+            }
+          ]
+        },
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[21]",
+                "-value": "0",
+                "-id": "option_21_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_21_0",
+                "#text": "\n                    A.WAN\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[21]",
+                "-value": "1",
+                "-id": "option_21_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_21_1",
+                "#text": "\n                    B.1\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[21]",
+                "-value": "2",
+                "-id": "option_21_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_21_2",
+                "#text": "\n                    C.2\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[21]",
+                "-value": "3",
+                "-id": "option_21_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_21_3",
+                "#text": "\n                    D.3\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[21]",
+                "-value": "4",
+                "-id": "option_21_4"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_21_4",
+                "#text": "\n                    E.4\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "22. 张磊设置无线路由器后，平板电脑和其他移动终端都可以通过该网络接入Internet.平板电脑接入Internet应遵循的基本协议是（）\n            [单选题]\n        ",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[22]",
+                "-value": "0",
+                "-id": "option_22_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_22_0",
+                "#text": "\n                    A.NetBEUI\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[22]",
+                "-value": "1",
+                "-id": "option_22_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_22_1",
+                "#text": "\n                    B.TCP/IP\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[22]",
+                "-value": "2",
+                "-id": "option_22_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_22_2",
+                "#text": "\n                    C.IPX/SPX\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[22]",
+                "-value": "3",
+                "-id": "option_22_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_22_3",
+                "#text": "\n                    D.HTTP\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "23. 从地理覆盖范围看，该网络属于（） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[23]",
+                "-value": "0",
+                "-id": "option_23_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_23_0",
+                "#text": "\n                    A.局域网\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[23]",
+                "-value": "1",
+                "-id": "option_23_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_23_1",
+                "#text": "\n                    B.城域网\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[23]",
+                "-value": "2",
+                "-id": "option_23_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_23_2",
+                "#text": "\n                    C.广域网\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "24. 若PC1的网关为192.168.0.254，则PC2的网关为:（） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[24]",
+                "-value": "0",
+                "-id": "option_24_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_24_0",
+                "#text": "\n                    A.192.168.1.1\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[24]",
+                "-value": "1",
+                "-id": "option_24_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_24_1",
+                "#text": "\n                    B.127.0.0.1\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[24]",
+                "-value": "2",
+                "-id": "option_24_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_24_2",
+                "#text": "\n                    C.192.168.0.254\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[24]",
+                "-value": "3",
+                "-id": "option_24_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_24_3",
+                "#text": "\n                    D.192.168.10.1\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "25. PC1的IP地址为192.168.0.1，PC2的IP地址最可能为:（） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[25]",
+                "-value": "0",
+                "-id": "option_25_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_25_0",
+                "#text": "\n                    A.192.168.0.1\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[25]",
+                "-value": "1",
+                "-id": "option_25_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_25_1",
+                "#text": "\n                    B.192.168.0.114\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[25]",
+                "-value": "2",
+                "-id": "option_25_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_25_2",
+                "#text": "\n                    C.192.168.0.254\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[25]",
+                "-value": "3",
+                "-id": "option_25_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_25_3",
+                "#text": "\n                    D.5.5.1.1\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "26. 小明家开通了千兆宽带，使用运营商赠送的光信号调制解调器（简称光猫），他家宽带的实际下行速率最有可能是（）\n            [单选题]\n        ",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[26]",
+                "-value": "0",
+                "-id": "option_26_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_26_0",
+                "#text": "\n                    A.1000MB/s\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[26]",
+                "-value": "1",
+                "-id": "option_26_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_26_1",
+                "#text": "\n                    B.110MB/s\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[26]",
+                "-value": "2",
+                "-id": "option_26_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_26_2",
+                "#text": "\n                    C.125MB/s\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[26]",
+                "-value": "3",
+                "-id": "option_26_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_26_3",
+                "#text": "\n                    D.900MB/s\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "27.\n            小明用网线将光猫上的千兆网口与电脑的千兆网口连接起来，使用没有欠费的千兆宽带下载Steam上的战地五到C:\\SteamLibrary，但是发现下载速度始终保持在12-12.5MB/s之间，问题有可能出在下列哪里（）\n        ",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[27][]",
+                "-value": "0",
+                "-id": "option_27_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_27_0",
+                "#text": "\n                    A.steam官方服务器问题\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[27][]",
+                "-value": "1",
+                "-id": "option_27_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_27_1",
+                "#text": "\n                    B.小明使用的五类网线5号，8号芯被老鼠咬断了\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[27][]",
+                "-value": "2",
+                "-id": "option_27_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_27_2",
+                "#text": "\n                    C.小明被运营商骗了\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[27][]",
+                "-value": "3",
+                "-id": "option_27_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_27_3",
+                "#text": "\n                    D.小明的电脑硬盘写入速度瓶颈\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "28. 以下哪种数据传输方式的速度最快?（） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[28]",
+                "-value": "0",
+                "-id": "option_28_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_28_0",
+                "#text": "\n                    A. USB 3.0\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[28]",
+                "-value": "1",
+                "-id": "option_28_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_28_1",
+                "#text": "\n                    B. Firewire 800\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[28]",
+                "-value": "2",
+                "-id": "option_28_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_28_2",
+                "#text": "\n                    C. Thunderbolt 4\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[28]",
+                "-value": "3",
+                "-id": "option_28_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_28_3",
+                "#text": "\n                    D. eSATA\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "29. 下列这些存储介质中，哪一个是速度最快的? （） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[29]",
+                "-value": "0",
+                "-id": "option_29_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_29_0",
+                "#text": "\n                    A. NAND\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[29]",
+                "-value": "1",
+                "-id": "option_29_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_29_1",
+                "#text": "\n                    B. HDD\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[29]",
+                "-value": "2",
+                "-id": "option_29_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_29_2",
+                "#text": "\n                    C. DDR5\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[29]",
+                "-value": "3",
+                "-id": "option_29_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_29_3",
+                "#text": "\n                    D. SRAM\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "30. 哪个文件系统适用于在多个操作系统之间共享文件?（） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[30]",
+                "-value": "0",
+                "-id": "option_30_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_30_0",
+                "#text": "\n                    A. FAT32\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[30]",
+                "-value": "1",
+                "-id": "option_30_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_30_1",
+                "#text": "\n                    B. NTFS\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[30]",
+                "-value": "2",
+                "-id": "option_30_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_30_2",
+                "#text": "\n                    C. HFS+\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[30]",
+                "-value": "3",
+                "-id": "option_30_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_30_3",
+                "#text": "\n                    D. Ext4\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "31. 以下哪种加密算法是对称加密算法?（）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[31]",
+                "-value": "0",
+                "-id": "option_31_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_31_0",
+                "#text": "\n                    A. RSA\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[31]",
+                "-value": "1",
+                "-id": "option_31_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_31_1",
+                "#text": "\n                    B. AES\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[31]",
+                "-value": "2",
+                "-id": "option_31_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_31_2",
+                "#text": "\n                    C. SHA-256\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[31]",
+                "-value": "3",
+                "-id": "option_31_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_31_3",
+                "#text": "\n                    D. ECC\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "32. 什么是RAID?（）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[32]",
+                "-value": "0",
+                "-id": "option_32_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_32_0",
+                "#text": "\n                    A. 一种网络协议\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[32]",
+                "-value": "1",
+                "-id": "option_32_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_32_1",
+                "#text": "\n                    B. 一种存储技术\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[32]",
+                "-value": "2",
+                "-id": "option_32_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_32_2",
+                "#text": "\n                    C. 一种加密算法\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[32]",
+                "-value": "3",
+                "-id": "option_32_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_32_3",
+                "#text": "\n                    D. 一种输入输出设备\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "33. 什么是操作系统中的“进程”?（）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[33]",
+                "-value": "0",
+                "-id": "option_33_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_33_0",
+                "#text": "\n                    A. 程序执行的载体\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[33]",
+                "-value": "1",
+                "-id": "option_33_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_33_1",
+                "#text": "\n                    B. CPU的运行状态\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[33]",
+                "-value": "2",
+                "-id": "option_33_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_33_2",
+                "#text": "\n                    C. 内存的分配单位\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[33]",
+                "-value": "3",
+                "-id": "option_33_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_33_3",
+                "#text": "\n                    D. 硬盘上的文件\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "34. 什么是CPU的超线程?（）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[34]",
+                "-value": "0",
+                "-id": "option_34_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_34_0",
+                "#text": "\n                    A. 一种虚拟化技术\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[34]",
+                "-value": "1",
+                "-id": "option_34_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_34_1",
+                "#text": "\n                    B. 一种加速技术\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[34]",
+                "-value": "2",
+                "-id": "option_34_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_34_2",
+                "#text": "\n                    C. 一种多核技术\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[34]",
+                "-value": "3",
+                "-id": "option_34_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_34_3",
+                "#text": "\n                    D. 一种节能技术\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "35. 什么是固件?（）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[35]",
+                "-value": "0",
+                "-id": "option_35_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_35_0",
+                "#text": "\n                    A. 一种硬件设备\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[35]",
+                "-value": "1",
+                "-id": "option_35_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_35_1",
+                "#text": "\n                    B. 一种软件类型\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[35]",
+                "-value": "2",
+                "-id": "option_35_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_35_2",
+                "#text": "\n                    C. 一种网络协议\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[35]",
+                "-value": "3",
+                "-id": "option_35_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_35_3",
+                "#text": "\n                    D. 一种存储设备\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "36. 什么是虚拟机?（）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[36]",
+                "-value": "0",
+                "-id": "option_36_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_36_0",
+                "#text": "\n                    A. 一种模拟出的物理计算机\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[36]",
+                "-value": "1",
+                "-id": "option_36_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_36_1",
+                "#text": "\n                    B. 一种网络协议\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[36]",
+                "-value": "2",
+                "-id": "option_36_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_36_2",
+                "#text": "\n                    C. 一种编程语言\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[36]",
+                "-value": "3",
+                "-id": "option_36_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_36_3",
+                "#text": "\n                    D. 一种加密算法\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "37. 什么是Docker?（）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[37]",
+                "-value": "0",
+                "-id": "option_37_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_37_0",
+                "#text": "\n                    A. 一种容器化平台\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[37]",
+                "-value": "1",
+                "-id": "option_37_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_37_1",
+                "#text": "\n                    B. 一种网络协议\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[37]",
+                "-value": "2",
+                "-id": "option_37_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_37_2",
+                "#text": "\n                    C. 一种编程语言\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[37]",
+                "-value": "3",
+                "-id": "option_37_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_37_3",
+                "#text": "\n                    D. 一种加密算法\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "38. 什么是以太坊?（）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[38]",
+                "-value": "0",
+                "-id": "option_38_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_38_0",
+                "#text": "\n                    A. 一种智能合约平台\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[38]",
+                "-value": "1",
+                "-id": "option_38_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_38_1",
+                "#text": "\n                    B. 一种网络协议\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[38]",
+                "-value": "2",
+                "-id": "option_38_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_38_2",
+                "#text": "\n                    C. 一种编程语言\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[38]",
+                "-value": "3",
+                "-id": "option_38_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_38_3",
+                "#text": "\n                    D. 一种加密算法\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "39. 以下哪个是计算机网络中的传输层协议? （）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[39]",
+                "-value": "0",
+                "-id": "option_39_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_39_0",
+                "#text": "\n                    A. TCP\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[39]",
+                "-value": "1",
+                "-id": "option_39_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_39_1",
+                "#text": "\n                    B. IP\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[39]",
+                "-value": "2",
+                "-id": "option_39_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_39_2",
+                "#text": "\n                    C. HTTP\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[39]",
+                "-value": "3",
+                "-id": "option_39_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_39_3",
+                "#text": "\n                    D. ARP\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "40. 以下哪个是计算机操作系统中的进程调度算法?（）",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[40]",
+                "-value": "0",
+                "-id": "option_40_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_40_0",
+                "#text": "\n                    A. 先来先服务（FCFS）\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[40]",
+                "-value": "1",
+                "-id": "option_40_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_40_1",
+                "#text": "\n                    B. 最短作业优先（SJF）\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[40]",
+                "-value": "2",
+                "-id": "option_40_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_40_2",
+                "#text": "\n                    C. 时间片轮转（RR）\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[40]",
+                "-value": "3",
+                "-id": "option_40_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_40_3",
+                "#text": "\n                    D. 优先级调度（PS）\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": {
+          "#text": "41. 老师向希沃白板5中导入了一段视频画面存在，但播放时出现了如图所示的问题，可能的影响因素是什么?（）\n            ",
+          "img": {
+            "-decoding": "async",
+            "-class": "img-fluid",
+            "-src": "./电教委交流群入群测试_files/41.png",
+            "-alt": "Chania"
+          }
+        },
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[41][]",
+                "-value": "0",
+                "-id": "option_41_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_41_0",
+                "#text": "\n                    A.分辨率\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[41][]",
+                "-value": "1",
+                "-id": "option_41_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_41_1",
+                "#text": "\n                    B.帧率\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[41][]",
+                "-value": "2",
+                "-id": "option_41_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_41_2",
+                "#text": "\n                    C.时长\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[41][]",
+                "-value": "3",
+                "-id": "option_41_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_41_3",
+                "#text": "\n                    D.码率\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "42. 如果老师请你推荐一款轻薄本用来办公，需求为长续航，并且能够流畅处理轻度办公和轻度视频剪辑与编解码，以下哪一款CPU最适合?\n            （） [单选题]\n        ",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[42]",
+                "-value": "0",
+                "-id": "option_42_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_42_0",
+                "#text": "\n                    A. Apple M1\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[42]",
+                "-value": "1",
+                "-id": "option_42_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_42_1",
+                "#text": "\n                    B. i5 13500h\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[42]",
+                "-value": "2",
+                "-id": "option_42_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_42_2",
+                "#text": "\n                    C. i5 1350p\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[42]",
+                "-value": "3",
+                "-id": "option_42_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_42_3",
+                "#text": "\n                    D. R5 6600H\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "43. 蓝天P775TM1-G使用的EC（集成控制器）型号是什么? （） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[43]",
+                "-value": "0",
+                "-id": "option_43_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_43_0",
+                "#text": "\n                    A. IT8587\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[43]",
+                "-value": "1",
+                "-id": "option_43_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_43_1",
+                "#text": "\n                    B. IT5570\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[43]",
+                "-value": "2",
+                "-id": "option_43_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_43_2",
+                "#text": "\n                    C. IT8987E\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[43]",
+                "-value": "3",
+                "-id": "option_43_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_43_3",
+                "#text": "\n                    D. IT8512E\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "44. 正常配置的计算机的内储存器比外储存器 （） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[44]",
+                "-value": "0",
+                "-id": "option_44_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_44_0",
+                "#text": "\n                    A. 便宜\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[44]",
+                "-value": "1",
+                "-id": "option_44_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_44_1",
+                "#text": "\n                    B. 读取速度更快\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[44]",
+                "-value": "2",
+                "-id": "option_44_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_44_2",
+                "#text": "\n                    C. 储存量大\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[44]",
+                "-value": "3",
+                "-id": "option_44_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_44_3",
+                "#text": "\n                    D. 虽然价格高，但储存文件更多\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "45. Ventoy在uefi模式下可以引导一下哪个虚拟磁盘中的系统? （） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[45]",
+                "-value": "0",
+                "-id": "option_45_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_45_0",
+                "#text": "\n                    A. gpt格式动态扩展vhd中的Manjaro\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[45]",
+                "-value": "1",
+                "-id": "option_45_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_45_1",
+                "#text": "\n                    B. mbr格式固定大小vdi中的kali\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[45]",
+                "-value": "2",
+                "-id": "option_45_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_45_2",
+                "#text": "\n                    C. mbr格式动态扩展vhdx中的Windows11\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[45]",
+                "-value": "3",
+                "-id": "option_45_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_45_3",
+                "#text": "\n                    D. 以上都可以\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "46. 在Premiere中，若想快速调整时间轴到合适的缩放比例，应使用系列哪一个快捷键?（） [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[46]",
+                "-value": "0",
+                "-id": "option_46_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_46_0",
+                "#text": "\n                    A. V\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[46]",
+                "-value": "1",
+                "-id": "option_46_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_46_1",
+                "#text": "\n                    B. Ctrl+K\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[46]",
+                "-value": "2",
+                "-id": "option_46_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_46_2",
+                "#text": "\n                    C. \\\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[46]",
+                "-value": "3",
+                "-id": "option_46_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_46_3",
+                "#text": "\n                    D. A\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": {
+          "#text": "47. 李华某次给希沃重装完系统后出现了如图所示的情况，此时合理的解决方法为（）\n            ",
+          "img": {
+            "-decoding": "async",
+            "-class": "img-fluid",
+            "-src": "./电教委交流群入群测试_files/47.jpg",
+            "-alt": "Chania"
+          }
+        },
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[47][]",
+                "-value": "0",
+                "-id": "option_47_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_47_0",
+                "#text": "\n                    A. 重新安装Windows\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[47][]",
+                "-value": "1",
+                "-id": "option_47_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_47_1",
+                "#text": "\n                    B. 跑路\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[47][]",
+                "-value": "2",
+                "-id": "option_47_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_47_2",
+                "#text": "\n                    C. 进入BIOS设置启动模式与分区类型相匹配\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[47][]",
+                "-value": "3",
+                "-id": "option_47_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_47_3",
+                "#text": "\n                    D. 进入PE修复引导\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[47][]",
+                "-value": "4",
+                "-id": "option_47_4"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_47_4",
+                "#text": "\n                    E. 使用Ctrl+Alt+Delete重启电脑\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "48. 用于印刷的Photoshop图像文件一般设置为（）颜色模式 [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[48]",
+                "-value": "0",
+                "-id": "option_48_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_48_0",
+                "#text": "\n                    A.RGB\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[48]",
+                "-value": "1",
+                "-id": "option_48_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_48_1",
+                "#text": "\n                    B.灰度\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[48]",
+                "-value": "2",
+                "-id": "option_48_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_48_2",
+                "#text": "\n                    C.CMYK\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[48]",
+                "-value": "3",
+                "-id": "option_48_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_48_3",
+                "#text": "\n                    D.HSB\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "49. 为什么PE需要用Startisback替代任务栏 *",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[49][]",
+                "-value": "0",
+                "-id": "option_49_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_49_0",
+                "#text": "\n                    A.ramos限制\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[49][]",
+                "-value": "1",
+                "-id": "option_49_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_49_1",
+                "#text": "\n                    B.好看\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[49][]",
+                "-value": "2",
+                "-id": "option_49_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_49_2",
+                "#text": "\n                    C.原生任务栏高度依赖uwp\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "checkbox",
+                "-name": "answer[49][]",
+                "-value": "3",
+                "-id": "option_49_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_49_3",
+                "#text": "\n                    D.system账户无法使用uwp\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "question",
+        "p": "50. 看了不吃胡萝卜de兔叽的视频应该干啥 [单选题]",
+        "div": {
+          "-class": "options",
+          "div": [
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[50]",
+                "-value": "0",
+                "-id": "option_50_0"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_50_0",
+                "#text": "\n                    A.举报\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[50]",
+                "-value": "1",
+                "-id": "option_50_1"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_50_1",
+                "#text": "\n                    B.点踩\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[50]",
+                "-value": "2",
+                "-id": "option_50_2"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_50_2",
+                "#text": "\n                    C.三连\n                "
+              }
+            },
+            {
+              "-class": "form-check",
+              "input": {
+                "-class": "form-check-input",
+                "-type": "radio",
+                "-name": "answer[50]",
+                "-value": "3",
+                "-id": "option_50_3"
+              },
+              "label": {
+                "-class": "form-check-label",
+                "-for": "option_50_3",
+                "#text": "\n                    D.白嫖\n                "
+              }
+            }
+          ]
+        }
+      },
+      {
+        "-class": "h-captcha",
+        "-data-sitekey": "6813a050-d700-4af2-8569-f6070402e530",
+        "iframe": {
+          "-src": "./电教委交流群入群测试_files/hcaptcha.html",
+          "-tabindex": "0",
+          "-frameborder": "0",
+          "-scrolling": "no",
+          "-allow": "private-state-token-issuance 'src'; private-state-token-redemption 'src'",
+          "-title": "包含 hCaptcha 安全挑战复选框的小部件",
+          "-style": "width: 303px; height: 78px; overflow: hidden;",
+          "data-hcaptcha-widget-id": "0ao5ah5w7xpn"
+        },
+        "textarea": [
+          {
+            "-id": "g-recaptcha-response-0ao5ah5w7xpn",
+            "-name": "g-recaptcha-response",
+            "-style": "display: none;"
+          },
+          {
+            "-id": "h-captcha-response-0ao5ah5w7xpn",
+            "-name": "h-captcha-response",
+            "-style": "display: none;"
+          }
+        ]
+      }
+    ],
+    "input": {
+      "-type": "submit",
+      "-class": "btn btn-primary",
+      "-value": "提交答案"
+    }
+  }
+}
