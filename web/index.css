@@ -16,7 +16,7 @@ body {
 .option input:checked{
     background-color: #2e4e88;
 }
-#submitButton
+.submit
 {
     background-color: #2e4e88;
     color: #fff;

@@ -70,6 +70,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .pageChoose:hover {
@@ -80,6 +81,7 @@ body {
 {
     flex-direction: row;
     display: flex;
+    height: 100%;
 }
 
 #left {
@@ -104,4 +106,12 @@ body {
     align-content: center;
     align-items: center;
     padding: 20px;
+}
+.tabText
+{
+    height:40px;
+    line-height:40px;
+    width:100%;
+    overflow:hidden;
+    text-align: center;
 }
