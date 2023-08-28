@@ -1,5 +1,7 @@
 package cn.harkerBest.checkInBaseServer.dataFormat;
 
-public abstract class SingleChoiceQuestion extends Question{
-    public abstract Choice getRightChoice();
+public class SingleChoiceQuestion extends Question{
+    public Choice getRightChoice(){
+        return new Choice(options.get(correct_options.get(0)));
+    }
 }

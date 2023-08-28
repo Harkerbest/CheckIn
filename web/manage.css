@@ -71,14 +71,21 @@ body {
     font-weight: 500;
     margin-bottom: 5px;
     text-align: center;
+
 }
 
 .pageChoose:hover {
     background: #414244;
 }
 
-#main
-{
+.pageChoose.select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#main {
     flex-direction: row;
     display: flex;
     height: 100%;
@@ -95,8 +102,7 @@ body {
     padding: 20px;
 }
 
-#right
-{
+#right {
     width: 88%;
     height: 100%;
     margin-left: 1%;
@@ -107,11 +113,17 @@ body {
     align-items: center;
     padding: 20px;
 }
-.tabText
-{
-    height:40px;
-    line-height:40px;
-    width:100%;
-    overflow:hidden;
+
+.tabText {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    overflow: hidden;
     text-align: center;
+}
+
+.shrink {
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
 }

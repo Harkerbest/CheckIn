@@ -33,7 +33,7 @@ public class QuestionUtils {
                 if (questionType.equals("radio")){
                     Question singleChoiceQuestion = new SingleChoiceQuestion() {
                         {
-                            questionString = (String) (questionDiv.get("p"));
+                            question_content = (String) (questionDiv.get("p"));
                         }
                         @Override
                         public Choice getRightChoice() {
@@ -41,15 +41,15 @@ public class QuestionUtils {
                         }
                         
                         @Override
-                        public String getQuestionString() {
-                            return questionString;
+                        public String getQuestionContent() {
+                            return question_content;
                         }
                     };
                     questions.add(singleChoiceQuestion);
                 } else if (questionType.equals("checkbox")){
                     Question multipleChoiceQuestion = new MultipleChoiceQuestion() {
                         {
-                            questionString = (String) (questionDiv.get("p"));
+                            question_content = (String) (questionDiv.get("p"));
                         }
                         @Override
                         public List<Choice> getRightChoices() {
@@ -57,8 +57,8 @@ public class QuestionUtils {
                         }
                         
                         @Override
-                        public String getQuestionString() {
-                            return questionString;
+                        public String getQuestionContent() {
+                            return question_content;
                         }
                     };
                     questions.add(multipleChoiceQuestion);

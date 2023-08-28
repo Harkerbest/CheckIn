@@ -48,28 +48,56 @@
         }
 %>
 <% if (logon) { %>
-<h1 class="text">CheckIn管理页</h1>
+<div style="flex-direction: row;display: flex;">
+    <div id="shrink" class="pageChoose" style="text-align: center;background: #1f2023;width: 50px;height: 50px" onclick="function shrink() {
+                var left = document.getElementById('left');
+                var right = document.getElementById('right');
+                var shrink = document.getElementById('shrink');
+                var logout = document.getElementById('logout');
+                if (left.style.width === '10%') {
+                    left.style.width = '0%';
+                    left.style.borderRadius = '0px';
+                    left.style.padding = '0px';
+                    right.style.width = '100%';
+                    right.style.marginLeft = '0%';
+                    shrink.style.left = '0%';
+                    shrink.innerHTML = '<p class=&quot;shrink&quot;>展开</p>';
+                    logout.style.visibility = 'hidden';
+                } else {
+                    left.style.width = '10%';
+                    left.style.borderRadius = '15px';
+                    left.style.padding = '20px';
+                    right.style.width = '88%';
+                    right.style.marginLeft = '1%';
+                    shrink.style.left = '10%';
+                    shrink.innerHTML = '<p class=&quot;shrink&quot;>收起</p>';
+                    logout.style.visibility = 'visible';
+                }
+        }
+        shrink()"><p class="shrink">收起</p></div>
+    <h1 class="text" style="margin-left: 4px">CheckIn管理页</h1>
+</div>
 <div id="main">
     <div id="left">
         <%
-            String[] tabNames = {"流量","题库","","","","","","","",""};
+            String[] tabNames = {"流量", "题库", "", "", "", "", "", "", "", ""};
             int i = 0;
-            for (String tabName: tabNames) {
-            String selectedStyle = "";
-            if (request.getParameter("page") != null && request.getParameter("page").equals(String.valueOf(i))) {
-                selectedStyle = "style=\"background-color: #414244\"";
-            }
-            out.println("<div class=\"pageChoose\" " + selectedStyle + " onclick=\"window.open('" + request.getRequestURL() + "?page=" + i + "','_self')\"><p class=\"tabText\">"+tabName+"</p></div>");
-            i++;
-        } %>
+            for (String tabName : tabNames) {
+                String selectedStyle = "";
+                if (request.getParameter("page") != null && request.getParameter("page").equals(String.valueOf(i))) {
+                    selectedStyle = "style=\"background-color: #414244\"";
+                }
+                out.println("<div class=\"pageChoose\" " + selectedStyle + " onclick=\"window.open('" + request.getRequestURL() + "?page=" + i + "','_self')\"><p class=\"tabText\">" + tabName + "</p></div>");
+                i++;
+            } %>
         <form method="POST" action="<%=requestURI%>">
             <input type="hidden" name="logout" value="1"/>
-            <input class="button" type="submit" value="退出" style="margin-top: 10px"/>
+            <input class="button" id="logout" type="submit" value="退出" style="width: 100%; margin-top: 10px"/>
         </form>
     </div>
     <div id="right">
         <% if (request.getParameter("page") != null)
-            if (request.getParameter("page").equals("0")){ %>
+            if (request.getParameter("page").equals("0")) { %>
         <div id="chart" style="width: 100%;height: 30%;"></div>
         <script type="text/javascript">
             // 基于准备好的dom，初始化echarts实例
@@ -85,7 +113,7 @@
                 },
                 tooltip: {},
                 legend: {
-                    data:['流量'],
+                    data: ['流量'],
                     textStyle: {
                         color: '#d3d3d3'
                     }
@@ -120,7 +148,25 @@
             // 使用刚指定的配置项和数据显示图表。
             myChart.setOption(option);
         </script>
-        <% } else if (request.getParameter("page").equals("2")){}%>
+        <% } else if (request.getParameter("page").equals("2")) { %>
+        <div id="overView">
+            <% %>
+            <table >
+                <tr>
+                    <td>题目描述</td>
+                    <td>选项</td>
+                    <td>Hash</td>
+                </tr>
+                <tr>
+                    <td>row 2, cell 1</td>
+                    <td>row 2, cell 2</td>
+                </tr>
+            </table>
+        </div>
+        <%
+                } else if (request.getParameter("page").equals("3")) {
+
+                }%>
     </div>
         <% } else { %>
     <div id="login">
