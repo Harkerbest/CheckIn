@@ -59,7 +59,7 @@
             <br/>
         <%}%>
         
-                <div id = "h-captcha" data-callback = "captchaCallback" data-sitekey = "*****" data-theme="dark" class="mt-4 h-captcha" ></div >
+                <div id = "h-captcha" data-callback = "captchaCallback" data-sitekey = "558405d8-cc09-4bfe-b7a3-0754a2f880e8" data-theme="dark" class="mt-4 h-captcha" ></div >
                 <input id = "submitButton" type = "submit" value = "提交" >
                 <input type = "hidden" name = "submitAnswers" value = "true">
                 </form>

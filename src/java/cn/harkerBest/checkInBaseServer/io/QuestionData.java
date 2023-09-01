@@ -4,8 +4,11 @@ import cn.harkerBest.checkInBaseServer.dataFormat.Question;
 import cn.harkerBest.checkInBaseServer.dataFormat.QuestionList;
 
 import java.io.*;
+import java.math.BigInteger;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -13,9 +16,9 @@ import java.util.Map;
 
 public class QuestionData implements Serializable {
     @Serial
-    private static final long serialVersionUID = 1145141919810L;
-    private Map<Integer,Question> hashCodeToQuestions;
-    private Map<TypeZone,List<Integer>> typeZoneToHashCodes;
+    private static final long serialVersionUID = -1145141919810L;
+    private Map<String,Question> hashCodeToQuestions;
+    private Map<TypeZone,List<String>> typeZoneToHashCodes;
     private QuestionData() {}
     {
         if (hashCodeToQuestions == null) {
@@ -33,7 +36,7 @@ public class QuestionData implements Serializable {
         return QuestionDataHolder.INSTANCE;
     }
     public void readFromFile() throws IOException {
-        Path path = Path.of("questions.serialized");
+        Path path = Path.of(".\\..\\..\\questions.serialized");//相对于CheckIn\apache-tomcat-10.1.11\bin
         try (ObjectInputStream ois = new ObjectInputStream(Files.newInputStream(path))) {
             QuestionData questionData = (QuestionData) ois.readObject();
             QuestionDataHolder.INSTANCE.hashCodeToQuestions = questionData.hashCodeToQuestions;
@@ -44,7 +47,6 @@ public class QuestionData implements Serializable {
             } catch (Exception ex) {
                 ex.printStackTrace();
             }
-            e.printStackTrace();
         }
     }
     public void appendToFile(QuestionList questionList) {
@@ -74,17 +76,16 @@ public class QuestionData implements Serializable {
         }
     }
     public void addQuestionOfTypeZone(Question question,TypeZone typeZone) {
-        hashCodeToQuestions.put(question.hashCode(),question);
+        hashCodeToQuestions.put(MD5Of(question),question);
         if (!typeZoneToHashCodes.containsKey(typeZone)) {
             typeZoneToHashCodes.put(typeZone, new ArrayList<>());
-        } else {
-            typeZoneToHashCodes.get(typeZone).add(question.hashCode());
         }
+        typeZoneToHashCodes.get(typeZone).add(MD5Of(question));
     }
     public List<Question> getQuestionsByTypeZone(TypeZone typeZone) {
         return typeZoneToHashCodes.get(typeZone).stream().map(hashCodeToQuestions::get).toList();
     }
-    public Question getQuestionByHashCode(int hashCode) {
+    public Question getQuestionByHashCode(String hashCode) {
         return hashCodeToQuestions.get(hashCode);
     }
     public static void main(String[] args) throws IOException {//test
@@ -92,6 +93,31 @@ public class QuestionData implements Serializable {
         questionSavingUtils.readFromFile();
         System.out.println();
     }
+    
+    public static String MD5Of(Question question) {
+        String input = question.toString();
+        if(input == null || input.isEmpty()) {
+            return null;
+        }
+        try {
+            MessageDigest md5 = MessageDigest.getInstance("MD5");
+            md5.update(input.getBytes());
+            byte[] byteArray = md5.digest();
+            
+            BigInteger bigInt = new BigInteger(1, byteArray);
+            // 参数16表示16进制
+            StringBuilder result = new StringBuilder(bigInt.toString(16));
+            // 不足32位高位补零
+            while (result.length() < 32) {
+                result.insert(0, "0");
+            }
+            return result.toString();
+        } catch (NoSuchAlgorithmException e) {
+            // impossible
+        }
+        return null;
+    }
+    
     public enum TypeZone{
         UNDEFINED
     }

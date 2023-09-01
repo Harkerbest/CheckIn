@@ -41,7 +41,7 @@ public class QuestionUtils {
                         }
                         
                         @Override
-                        public String getQuestionContent() {
+                        public String getContent() {
                             return question_content;
                         }
                     };
@@ -57,7 +57,7 @@ public class QuestionUtils {
                         }
                         
                         @Override
-                        public String getQuestionContent() {
+                        public String getContent() {
                             return question_content;
                         }
                     };

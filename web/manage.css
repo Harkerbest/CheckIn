@@ -88,7 +88,7 @@ body {
 #main {
     flex-direction: row;
     display: flex;
-    height: 100%;
+    height: auto;
 }
 
 #left {
@@ -104,7 +104,7 @@ body {
 
 #right {
     width: 88%;
-    height: 100%;
+    height: auto;
     margin-left: 1%;
     background-color: #1f2023;
     float: right;
@@ -127,3 +127,29 @@ body {
     height: 50px;
     line-height: 50px;
 }
+
+#overView
+{
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+td , th {
+    border: 4px solid #2c2d31;
+    background: #202125;
+    overflow: hidden;
+    white-space: pre-wrap;
+    /*text-overflow: ellipsis;*/
+    color: #ffffff;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+table
+{
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+

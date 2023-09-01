@@ -1,7 +1,9 @@
 <%@ page import="java.util.List" %>
 <%@ page import="java.time.Instant" %>
-<%@ page import="javax.swing.text.DateFormatter" %>
 <%@ page import="cn.harkerBest.checkInBaseServer.TrafficLogger" %>
+<%@ page import="cn.harkerBest.checkInBaseServer.dataFormat.Question" %>
+<%@ page import="cn.harkerBest.checkInBaseServer.io.QuestionData" %>
+<%@ page import="cn.harkerBest.checkInBaseServer.dataFormat.Choice" %>
 <%@ page %><%--
   Created by IntelliJ IDEA.
   User: etern
@@ -49,7 +51,8 @@
 %>
 <% if (logon) { %>
 <div style="flex-direction: row;display: flex;">
-    <div id="shrink" class="pageChoose" style="text-align: center;background: #1f2023;width: 50px;height: 50px" onclick="function shrink() {
+    <div id="shrink" class="pageChoose" style="text-align: center;background: #1f2023;width: 50px;height: 50px"
+         onclick="function shrink() {
                 var left = document.getElementById('left');
                 var right = document.getElementById('right');
                 var shrink = document.getElementById('shrink');
@@ -80,7 +83,7 @@
 <div id="main">
     <div id="left">
         <%
-            String[] tabNames = {"流量", "题库", "", "", "", "", "", "", "", ""};
+            String[] tabNames = {"流量", "题库", "添加题目", "设置", "账户设置", "", "", "", "", ""};
             int i = 0;
             for (String tabName : tabNames) {
                 String selectedStyle = "";
@@ -98,7 +101,7 @@
     <div id="right">
         <% if (request.getParameter("page") != null)
             if (request.getParameter("page").equals("0")) { %>
-        <div id="chart" style="width: 100%;height: 30%;"></div>
+        <div id="chart" style="width: 100%;height: 300px;"></div>
         <script type="text/javascript">
             // 基于准备好的dom，初始化echarts实例
             var myChart = echarts.init(document.getElementById('chart'));
@@ -148,19 +151,51 @@
             // 使用刚指定的配置项和数据显示图表。
             myChart.setOption(option);
         </script>
-        <% } else if (request.getParameter("page").equals("2")) { %>
+        <% } else if (request.getParameter("page").equals("1")) {
+            QuestionData instance = QuestionData.getInstance();
+            instance.readFromFile();%>
         <div id="overView">
-            <% %>
-            <table >
+            <table>
                 <tr>
-                    <td>题目描述</td>
-                    <td>选项</td>
-                    <td>Hash</td>
+                    <th>题目描述</th>
+                    <th>选项</th>
+                    <th>分区</th>
+                    <th>Hash</th>
+                </tr>
+                <%
+                    try {
+                        for (Question question : instance.getQuestionsByTypeZone(QuestionData.TypeZone.UNDEFINED)) {
+                            final List<Choice> choices = question.getChoices();%>
+                <tr>
+                    <td rowspan="<%=choices.size()%>" style="width:50%;"><%=question.getContent()%>
+                    </td>
+                    <%
+                        boolean first = true;
+                        for (Choice choice : choices) {
+                            if (!first) {%>
                 </tr>
                 <tr>
-                    <td>row 2, cell 1</td>
-                    <td>row 2, cell 2</td>
+                    <%}%>
+                    <td style="background:<%=(choice.isCorrect()?"#324132":"#422b2b")%>;width: 40px"><%=choice%>
+                    </td>
+                    <%
+                            if (first) {
+                                first = false;
+                                %>
+                    <td rowspan="<%=choices.size()%>" style="width:8%"><%=question.getTypeZone()%>
+                    <td rowspan="<%=choices.size()%>" style="width:10%"><%=QuestionData.MD5Of(question)%>
+                    </td>
+                    <%
+                            }
+                        }
+                    %>
                 </tr>
+                <%
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                %>
             </table>
         </div>
         <%
