@@ -1,12 +1,13 @@
 # CheckIn-Java-version - 更完善的QQ群入群测试解决方案
-![Static Badge](https://img.shields.io/badge/Language-Java-Web&Python_Web-red)
+![Static Badge](https://img.shields.io/badge/Language-Java_Web_&_Python-red)
 
 
-CheckIn-Java-version 是一个用于测试并验证用户资格以加入 QQ 群的程序。它通过一个使用 Jsp 构建的网站提供测试题目，做题前需要登录 QQ 账号用于记录，合格后的用户将提交 QQ 群入群申请，由使用 Python Opqbot 框架开发的 QQ 机器人判断是否通过作答
+CheckIn-Java-version (基于对Main分支PHP部分的Java重构) 是一个用于测试并验证用户资格以加入 QQ 群的程序。它通过一个使用 Jsp 构建的网站提供测试题目，做题前需要登录 QQ 账号用于记录，合格后的用户将提交 QQ 群入群申请，由使用 Python Opqbot 框架开发的 QQ 机器人判断是否通过作答
 
 ## 特点
 
 - 提供在线测试题目，用于验证用户加入 QQ 群的资格。
+- 提供Web管理面板，能够在线管理和编辑题目内容。
 - 按账号记录用户，并传输至 QQ 机器人。
 - 使用 QQ 机器人自动核验用户账号，从而进行入群资格验证。
 
